@@ -20,7 +20,7 @@ for line in range(0, len(input) - 1):
 
 s = Screen()
 for line in range(0, len(input)):
-# If instruction is 'rect', create a rectangle
+	# If instruction is 'rect', create a rectangle
 	if input[line][0:4] == 'rect':
 		index_firstNum = input[line].find(' ') + 1
 		index_x = input[line].find('x')
