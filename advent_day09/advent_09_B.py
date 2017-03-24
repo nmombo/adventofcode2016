@@ -33,9 +33,9 @@ while char < len(input):
 			stringToInsert += charsToRepeat
 		# Insert the repeated characters into the string and remove the compression marker
 		input = input[:char] + stringToInsert + input[index_closeParen+len(charsToRepeat)+1:]
-		#print str(char) + ' ' + input
+		print str(char) + ' ' + input
 	else:
-		#print str(char) + ' ' + input
+		print str(char) + ' ' + input
 		char += 1
 	print char
 print input
